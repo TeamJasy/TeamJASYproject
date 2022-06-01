@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang ="en">
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Outfit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aboutus.css">
+    <title>Choose your destination!</title>
   </head>
   <title>About Us</title>
   <body>
     <header>
+    
+      <h1><img src="img/JASY (1).png" alt="Team JASY's logo">JASY DESTINATIONS</h1>
+      
       <div class="header-div">
-       <img src="img/JASY (1).png" alt="Team JASY's logo">
-        <h1>JASY Destinations</h1>
-        <p>Contact us!</br>
+      
+        <p>Contact us!
         Phone: 123-456-7890</br>
         <a href = "mailto: TeamJASY@email.com">Send us an Email</a>
         </p>
       </div>
+
+
       <nav class="link-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -25,27 +36,41 @@
       </nav>
     </header>
   
-    <div id="profile-cotainers"> 
-      <img src="https://via.placeholder.com/150" title= "The J" alt="image description - be detailed">
-      <ul>
-        <li>Favorite Destination:</li>
-        <li>Music blasting in the car on the roadtrip:</li>
-        <li>What am I sipping on?</li>
-        <li></li>
-      </ul>
-      
-      <img src="https://via.placeholder.com/150" title= "The A" alt="image description - be detailed">
-      <p>About the A</p>
-
-      <img src="https://via.placeholder.com/150" title="The S" alt="image description - be detailed">
-      <p>About the S</p>
-
-      <img src="https://via.placeholder.com/150" title="The Y" alt="image description - be detailed">
-      <p>About the Y</p>
+    <div id="button">
+      <p class="toggle">Toggle Color Mode</p>
+      <button onclick="toggleDarkLight()">Change to dark mode</button>
     </div>
 
+    
+    <section class="profile-cotainer"> 
+      <div class="profiles">
+      <img src="img/JASY J.jpg" title= "The J" alt="Jo from JASY DESTINATIONS is pictured.">
+        <ul>
+          <li>Favorite Destination:</li>
+          <li>Music blasting in the car on the roadtrip:</li>
+          <li>What am I sipping on?</li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="profiles">
+      <img src="https://via.placeholder.com/300x500" title= "The A" alt="image description - be detailed">
+      <p>About the A</p>
+    </div>
+      
+    <div class="profiles">
+      <img src="https://via.placeholder.com/300x500" title="The S" alt="image description - be detailed">
+      <p>About the S</p>
+    </div>
+      
+    <div class="profiles">
+      <img src="https://via.placeholder.com/300x500" title="The Y" alt="image description - be detailed">
+      <p>About the Y</p>
+    </div>
+  
+  </section>
 
 
-    <!-- <script src="js/index.js"></script> -->
+     <script src="js/darklight.js"></script>
   </body>
 </html>
