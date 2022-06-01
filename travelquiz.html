@@ -4,15 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Outfit&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/travelquiz.css">
   <title>Choose your destination!</title>
 </head>
 <body>
   <header>
+    
+    <h1><img src="img/JASY (1).png" alt="Team JASY's logo">JASY DESTINATIONS</h1>
+    
     <div class="header-div">
-      <img src="img/JASY (1).png" alt="Team JASY's logo">
-      <h1>JASY Destinations</h1>
+    
       <p>Contact us!</br>
       Phone: 123-456-7890</br>
       <a href = "mailto: TeamJASY@email.com">Send us an Email</a>
@@ -28,14 +33,14 @@
     </nav>
   </header>
   <main>
-  <p>Placeholder</p>
+  <div class="container">
   <!--  how to use js with html quiz source from codepen -->
   <form id="quiz">
 
     <!-- <h2>Please enter your name</h2>
     <label for="name">Please enter your Name</label>
     <input type="text" name="name" id="name"> -->
-    
+    <div class="radio-btn1">
     <h2>Where do you want to go?</h2>
     
     <label><input type="radio" name="q1" id="q1-1" value="Snowy">Somewhere Snowy</label>
@@ -44,7 +49,9 @@
       <br />
     <label><input type="radio" name="q1" id="q1-3" value="Sandy">Somewhere Sandy</label>
       <br />
+      </div>
 
+      <div class="radio-btn2">  
     <h2>What activity do you enjoy?</h2>
     
      <label><input type="radio" name="q2" id="q2-1" value="Snowy">Skiing</label>
@@ -53,7 +60,9 @@
       <br />
     <label><input type="radio" name="q2" id="q2-3" value="Sandy">Swimming</label>
       <br /> 
+        </div>
 
+        <div class="radio-btn3">
     <h2>What is the goal of your travel?</h2>
     
     <label><input type="radio" name="q3" id="q3-1" value="Snowy">Family Activities</label>
@@ -61,8 +70,10 @@
     <label><input type="radio" name="q3" id="q3-2" value="Mountainous">Isolation</label>
       <br />
     <label><input type="radio" name="q3" id="q3-3" value="Sandy">Relaxation</label>
-      <br />       
-    
+      <br />  
+      </div>     
+    </div>
+    </div>
     
     <button type="submit" id="btn">Submit Your Answers</button>
     <!-- <button type="reset" id="reset" onclick="resetAnswer()">Reset</button> -->
