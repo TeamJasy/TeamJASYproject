@@ -1,5 +1,5 @@
 'use strict';
-let allPhotos = ['img/aspenlake.jpeg', 'img/aspenski.jpeg', 'img/aspentown.jpeg', 'img/blow-hole.jpg', 'img/cruise.jpg', 'img/flag.jpg', 'img/hiker.jpg', 'img/mountain.jpg', 'img/trail.jpg'];
+let allPhotos = ['img/aspenlake.jpeg', 'img/aspenski.jpeg', 'img/aspentown.jpeg', 'img/blow-hole.jpg', 'img/cruise.jpg', 'img/flag.jpg', 'img/hiker.jpg', 'img/mountain.jpg', 'img/trail.jpg', 'img/vegas-sign.jpg', 'img/vegas.jpg', 'img/craps.jpg'];
 
 function renderDestination(){
   let renderData = localStorage.getItem ('storedDestination');
