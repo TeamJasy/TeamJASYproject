@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Choose your destination!</title>
   </head>
   <body>
     <header>
-      <h1>Yuh</h1>
+    
+      <h1><img src="img/JASY (1).png" alt="Team JASY's logo">JASY DESTINATIONS</h1>
+      
+      <div class="header-div">
+      
+        <p>Contact us! </br>
+        Phone: 123-456-7890</br>
+        <a href = "mailto: TeamJASY@email.com">Send us an Email</a>
+        </p>
+      </div>
+      <nav class="link-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="travelquiz.html">Destinations</a></li>
+          <li><a href="uservacations.html">Your Vacations</a></li>
+          <li><a href="aboutus.html">About us</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <div id="button">
+      <p class="toggle">Toggle Color Mode</p>
+      <button onclick="toggleDarkLight()">Change to dark mode</button>
+    </div>
+    <main>
+      <article>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem pariatur quasi tenetur nam delectus obcaecati magni quos quas accusantium laborum excepturi perferendis, corporis placeat iure ipsum? Delectus perferendis fugiat ab!
+        Mollitia tenetur eaque quam illo distinctio, amet, fugiat possimus aut reprehenderit ab vitae ducimus beatae earum, dignissimos voluptatem maiores minima corporis dolor explicabo similique eveniet nesciunt atque ipsam! Ullam, assumenda.</p>
+        <section>
+          
+          <img id="image" src="./img/Colorado/aspenski.jpeg" style="width: 200px">
+
+        </section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio veritatis quam laudantium tempora tenetur incidunt laboriosam obcaecati iste cum, nulla reprehenderit, ipsum rem id temporibus. Numquam dicta consequatur distinctio!</p>
+        
+        <div id="link-button">
+        <a href="travelquiz.html">Click here to find your destination!</a>
+        </div>
+
+      </article>
+    </main>
+    <footer>JASY Destinations &copy;2022</footer>
+
+    <script 
+
+      src="./js/app.js" type="text/javascript">
+
+    </script>
   </body>
 </html>

@@ -1,0 +1,119 @@
+body {
+  background-color: #4285F4;
+  color: #FFD724;
+  font-family: 'Outfit', sans-serif;
+}
+
+img {
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+ padding-top: 20px;
+ padding-right: 100px;
+}
+
+h1 {
+  justify-content: center;
+  text-align: center;
+  font-size:80px;
+ 
+}
+
+.header-div{
+justify-content: right;
+text-align: right;
+font-size: 20px;
+
+}
+
+.header-div a {
+  justify-content: right;
+  text-align: right;
+  font-size: 20px;
+  color: gold;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  height:60px;
+  margin:60px auto;
+  text-align: center;
+  border-radius: 5px;
+  background-color:aqua;
+  padding-top: 20px;
+}
+
+/* .link-nav {
+display: flex;
+justify-content: center;
+} */ 
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color:#FF4A24;
+  font-size: 30px;
+  padding:40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h2 {
+font-size: 30px;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 20px;
+
+}
+.radio-btn1 {
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color:#FF5047;
+  color: #FFE261;
+  width: 600px;
+  height: 250px;
+  padding: 10px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  
+
+}
+
+.radio-btn2 {
+background-color: #2EFF7D;
+color: #FF1D00;
+border-radius: 5px;
+width: 600px;
+height: 250px;
+padding: 10px;
+margin-bottom: 25px;
+font-size: 20px;
+
+}
+
+
+.radio-btn3 {
+background-color: #FFD724;
+color: #FF1D00;
+border-radius: 10px;
+width: 600px;
+height: 250px;
+padding: 10px;
+margin-bottom: 25px;
+font-size: 20px;
+
+}
+.radio-btn:hover {
+border-color: black;
+}
