@@ -12,11 +12,11 @@
 Version 1.0 - built out basic html, next some CSS styling
 ### Wireframe and User Stories
 ***
-![WireFrame](./img/Wireframe.png)  
+![WireFrame](./img/prep/Wireframe.png)  
 [User Stories](https://github.com/orgs/TeamJasy/projects/1/views/1?layout=board)  
 ***
 ### Domain Model
-![DomainModel](./img/Domain%20Modeling.png)
+![DomainModel](./img/prep/Domain%20Modeling.png)
 
 
 
