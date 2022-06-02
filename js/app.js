@@ -83,7 +83,7 @@ function submitResults(event){
       }
     }
   }
-  // window.location.href = "uservacations.html" ;
+  window.location.href = "uservacations.html" ;
   selectUserMatch();
 }
 
