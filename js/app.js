@@ -22,9 +22,9 @@ function DestinationPackage(name, activity, goal, ansKey, photos){
   destinations.push(this);
   this.description = `${name} is a great location! They are known for ${activity}. You will be able to enjoy ${goal} during your stay.`;
 }
-new DestinationPackage('Aspen', 'skiing', 'family activities', [0, 3, 6], [allPhotos[0], allPhotos [1], allPhotos[2]]);
-new DestinationPackage('Ensenada', 'swimming', 'family relaxation', [2, 5, 8], [allPhotos[3], allPhotos [4], allPhotos[5]]);
-new DestinationPackage('Appalachian Mountains', 'hiking', 'isolation', [1, 4, 7], [allPhotos[6], allPhotos [7], allPhotos[8]]);
+new DestinationPackage('Aspen', 'skiing', 'family activities', [0, 0, 0], [allPhotos[0], allPhotos [1], allPhotos[2]]);
+new DestinationPackage('Ensenada', 'swimming', 'family relaxation', [2, 2, 2], [allPhotos[3], allPhotos [4], allPhotos[5]]);
+new DestinationPackage('Appalachian Mountains', 'hiking', 'isolation', [1, 1, 1], [allPhotos[6], allPhotos [7], allPhotos[8]]);
 
 //--------------------HELPER FUNCTIONS
 
@@ -58,8 +58,14 @@ quizForm.addEventListener('submit', submitResults);
 //--------------------EVENT HANDLERS
 function submitResults(event){
   event.preventDefault();
-  for(let i = 0; i < 10; i++){
-    if(quizForm[i].checked){destinationAns.push(i);}
+  for(let i = 0; i < 3; i++){
+    if(quizForm.q1[i].checked){destinationAns.push(i);}
+  }
+  for(let i = 0; i < 3; i++){
+    if(quizForm.q2[i].checked){destinationAns.push(i);}
+  }
+  for(let i = 0; i < 3; i++){
+    if(quizForm.q3[i].checked){destinationAns.push(i);}
   }
   for(let j = 0; j < destinationAns.length; j++){
     for(let k = 0; k < destinations.length; k++){
@@ -68,7 +74,7 @@ function submitResults(event){
       }
     }
   }
-  window.location.href = "uservacations.html" ;
+  // window.location.href = "uservacations.html" ;
   selectUserMatch();
 }
 
