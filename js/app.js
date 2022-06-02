@@ -22,9 +22,9 @@ function DestinationPackage(name, activity, goal, ansKey, photos){
   destinations.push(this);
   this.description = `${name} is a great location! They are known for ${activity}. You will be able to enjoy ${goal} during your stay.`;
 }
-new DestinationPackage('Aspen', 'skiing', 'family activities', [0, 0, 0], [allPhotos[0], allPhotos [1], allPhotos[2]]);
-new DestinationPackage('Ensenada', 'swimming', 'family relaxation', [2, 2, 2], [allPhotos[3], allPhotos [4], allPhotos[5]]);
-new DestinationPackage('Appalachian Mountains', 'hiking', 'isolation', [1, 1, 1], [allPhotos[6], allPhotos [7], allPhotos[8]]);
+new DestinationPackage('Aspen', 'skiing', 'family activities', [0, 0, 0, 2, 1, 1], [allPhotos[0], allPhotos [1], allPhotos[2]]);
+new DestinationPackage('Ensenada', 'swimming', 'family relaxation', [2, 2, 2, 0, 0, 2], [allPhotos[3], allPhotos [4], allPhotos[5]]);
+new DestinationPackage('Appalachian Mountains', 'hiking', 'isolation', [1, 1, 1, 0, 1, 1], [allPhotos[6], allPhotos [7], allPhotos[8]]);
 
 //--------------------HELPER FUNCTIONS
 
@@ -67,8 +67,17 @@ function submitResults(event){
   for(let i = 0; i < 3; i++){
     if(quizForm.q3[i].checked){destinationAns.push(i);}
   }
-  for(let j = 0; j < destinationAns.length; j++){
-    for(let k = 0; k < destinations.length; k++){
+  for(let i = 0; i < 3; i++){
+    if(quizForm.q4[i].checked){destinationAns.push(i);}
+  }
+  for(let i = 0; i < 3; i++){
+    if(quizForm.q5[i].checked){destinationAns.push(i);}
+  }
+  for(let i = 0; i < 3; i++){
+    if(quizForm.q6[i].checked){destinationAns.push(i);}
+  }
+  for(let j = 0; j < destinations.length; j++){
+    for(let k = 0; k < destinationAns.length; k++){
       if(destinationAns[k] === destinations[j].ansKey[k]){
         destinations[j].userMatch++;
       }
