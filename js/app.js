@@ -5,7 +5,7 @@ let destinationAns = [];
 let destinations = [];
 let allUserMatches = [];
 let userDestination = [];
-let allPhotos = ['img/aspenlake.jpeg', 'img/aspenski.jpeg', 'img/aspentown.jpeg', 'img/blow-hole.jpg', 'img/cruise.jpg', 'img/flag.jpg', 'img/hiker.jpg', 'img/mountain.jpg', 'img/trail.jpg', 'img/vegas-sign.jpg', 'img/vegas.jpg', 'img/craps.jpg'];
+let allPhotos = ['img/aspenlake.jpeg', 'img/aspenski.jpeg', 'img/aspentown.jpeg', 'img/blow-hole.jpg', 'img/cruise.jpg', 'img/flag.jpg', 'img/hiker.jpg', 'img/mountain.jpg', 'img/trail.jpg', 'img/vegas-sign.jpg', 'img/vegas.jpg', 'img/craps.jpg', 'img/paris1.jpg', 'img/paris2.jpg', 'img/paris3.jpg'];
 
 
 //———————————DOM REF
@@ -26,7 +26,7 @@ new DestinationPackage('Aspen', 'skiing', 'family activities', [0, 0, 0, 2, 1, 1
 new DestinationPackage('Ensenada', 'swimming', 'family relaxation', [2, 2, 2, 0, 0, 2], [allPhotos[3], allPhotos [4], allPhotos[5]]);
 new DestinationPackage('Appalachian Mountains', 'hiking', 'isolation', [1, 1, 1, 0, 1, 1], [allPhotos[6], allPhotos [7], allPhotos[8]]);
 new DestinationPackage('Vegas', 'exciting', 'gambling', [1, 2, 2, 1, 1, 1], [allPhotos[9], allPhotos[10], allPhotos[11]]);
-
+new DestinationPackage('Paris', 'landmarks', 'tour', [3, 1, 2, 2, 1, 0], [allPhotos[12], allPhotos[13], allPhotos[14]])
 
 //--------------------HELPER FUNCTIONS
 
