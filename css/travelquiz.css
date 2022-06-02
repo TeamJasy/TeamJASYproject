@@ -118,8 +118,42 @@ height: 200px;
 padding: 10px;
 margin-bottom: 25px;
 font-size: 20px;
-
 }
+
+.radio-btn4 {
+  background-color: #e6b687;
+  color: white;
+  border-radius: 10px;
+  width: 600px;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  
+  }
+
+  .radio-btn5 {
+    background-color: #e6b687;
+    color: white;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    }
+
+    .radio-btn6 {
+      background-color: #e6b687;
+      color: white;
+      border-radius: 10px;
+      width: 600px;
+      height: 200px;
+      padding: 10px;
+      margin-bottom: 25px;
+      font-size: 20px;
+      }
+      
 .radio-btn:hover {
 border-color: black;
 }
